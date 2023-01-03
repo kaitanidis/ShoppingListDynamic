@@ -1,4 +1,4 @@
-var button = document.getElementById("enter");
+var button = document.getElementById("add");
 var input = document.getElementById("userinput");
 var ul = document.querySelector("ul");
 
@@ -13,6 +13,7 @@ function createListElement() {
 
 	var but = document.createElement("button");
 	but.setAttribute('onclick', 'itemRemoval(this)');
+	but.setAttribute('class', 'buttonRed');
 	but.appendChild(document.createTextNode("Remove"));
 
 	li.appendChild(document.createTextNode(" "));

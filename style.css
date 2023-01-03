@@ -27,3 +27,39 @@ body {
   text-decoration: line-through;
 }
 
+.button {
+  display: inline-block;
+  padding: 5px 20px;
+  font-size: 12px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 3px #666;
+  transform: translateY(1px);
+}
+
+.buttonRed {
+  background-color: rgb(250, 157, 165); 
+  color: black; 
+  border: 2px solid #f44336;
+  border-radius: 15px;
+}
+
+.buttonRed:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+
